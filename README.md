@@ -1,10 +1,17 @@
+--- INITIAL ENVIRONMENT SETUP ---
+If you are starting from scratch in a new folder:
+1. Open PowerShell and navigate to the folder.
+2. Create a folder named backend, then navigate to that
+3. Create Virtual Environment:
+   python -m venv venv
+   
 Every time you want to work on this, remember to:
 1. Activate the Environment:
    .\venv\Scripts\activate
    (You should see '(venv)' appear in the prompt)
 
 2. Install/Update Libraries:
-   pip install -r requirements.txt (If you added any new dependencies, please add them here, located at "\venv\requiremnets.txt")
+   pip install -r requirements.txt (If you added any new dependencies, please add them there)
 
 3. To run FastAPI
    python .\main.py
